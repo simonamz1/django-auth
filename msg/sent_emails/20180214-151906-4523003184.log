@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: simonamzalag@gmail.com
+Date: Wed, 14 Feb 2018 15:19:06 -0000
+Message-ID: <151862154668.31993.10595232415181257901@SA.local>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/Mw/4tp-8ef8a22cee28c29c0486/
+
+Your username, in case you've forgotten: simonamz
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------
