@@ -13,3 +13,26 @@ class CommunityAdmin(admin.ModelAdmin):
 
 
 admin.site.register(models.Community, CommunityAdmin)
+
+
+class CommunityMemberInline(admin.TabularInline):
+    model = models.CommunityMember
+
+
+class CommunityAdmin(admin.ModelAdmin):
+    inlines = [CommunityMemberInline]
+    prepopulated_fields = {"slug": ("name",)}
+
+
+admin.site.register(models.Community, CommunityAdmin)
+
+class CommunityMemberInline(admin.TabularInline):
+    model = models.CommunityMember
+
+
+class CommunityAdmin(admin.ModelAdmin):
+    inlines = [CommunityMemberInline]
+    prepopulated_fields = {"slug": ("name",)}
+
+
+admin.site.register(models.Community, CommunityAdmin)
